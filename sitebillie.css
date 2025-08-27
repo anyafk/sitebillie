@@ -1,0 +1,293 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    font-family: "Poppins", sans-serif;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    right: 0; 
+    width: 250px;
+    height: 100%;
+    background-color: #1e1e1e;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-left: 20px;
+}
+.sidebar h2 {
+    color: white;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.sidebar ul {
+    list-style-type: none;
+}
+
+.sidebar ul li {
+    margin-bottom: 15px;
+}
+
+.sidebar ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.sidebar ul li a:hover {
+    text-decoration: underline;
+}
+
+
+.poppins-extralight {
+    font-weight: 200;
+    font-style: italic;
+    font-size: 18px;
+}
+
+body {
+    margin-right: 250px; /* Espaço para a sidebar na direita */
+}
+
+.header {
+    background-image: url('billieheader.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+.nome-artista {
+    font-size: 48px;
+}
+
+.descricao-artista {
+    max-width: 600px;
+    font-size: 18px;
+}
+
+.seçao {
+	background-color: #1e1e1e;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+}
+
+
+.album, .single {
+	font-size: 16px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+
+
+}
+
+.album img, .single img {
+	border-radius: 20px
+    height: 300px;
+    width: 300px;
+    margin-right: 20px;
+    margin-bottom: 20px; 
+}
+
+.feats img {
+	border-radius: 30px;
+}
+
+.feat p {
+	padding-right: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	font-size: 18px;
+	text-align: justify;
+
+}
+
+.feat h2 {
+	padding-top: 30px;
+	font-size: 50px;
+	text-align: center;
+}
+
+.feat img {
+	border-radius: 30px;
+	padding-left: 30px;
+	padding-bottom: 30px;
+	height: auto;
+	width: 49%;
+}
+
+.feat iframe {	
+	padding: 30px;
+}
+
+.conteudo {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.conteudo h2 {
+    font-size: 28px;
+}
+
+.conteudo p {
+    margin-top: 5px;
+}
+
+.hitmehardandsoft { 
+	background: #0b1119; 
+}
+
+.happierthanever { 
+	background: #8f7054; 
+}
+
+.whenweallfallasleep { 
+	background: #211d19; 
+}
+
+.dontsmileatme { 
+	background: #852215; 
+}
+
+.everythingiwanted {
+	background: #895d51;
+}
+
+.whatwasimadefor {
+	background: #87975d;
+}
+
+.tv {
+	background: #867977;
+}
+
+.sixfeetunder {
+	background: #413b3b ;
+}
+
+.lovely {
+	background: #1b170d;
+}
+
+.badguy {
+	background: #775d48;
+}
+
+.lovasaolvidar {
+	background: #103143;
+}
+
+.guess {
+	background: #5a6110;
+}
+
+.premiacoes {
+	background: #2c2c2c;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.tabeladepremiacoes {
+	background: #353535;
+}
+
+table {
+	padding: 20px;
+    width: 80%;
+    border-collapse: collapse;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+    color: white;
+}
+
+.performance {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #2c2c2c;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.performance img {
+	padding: 20px;
+    width: 556px;
+    flex: 1;
+    object-fit: cover;
+    border-radius: 30px;
+}
+
+.conteudo {
+    flex: 2;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conteudo h3 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+    color: white;
+}
+
+.conteudo p {
+    font-size: 1rem;
+    color: whitesmoke;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+iframe {
+    width: 100%;
+    max-width: 560px;
+    height: 315px;
+    border: none;
+    margin: 10px 0;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 30px;
+    text-align: center;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+.footer-conteudo {
+    max-width: 1200px;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+.links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #f0f0f0;
+}
+
